@@ -17,14 +17,6 @@ async function run(link) {
         let table = document.createElement("table");
         let container = document.querySelector(".container")
         container.replaceChildren(table);
-        // if(container.children){
-        //   container.removeChild(table);
-        //   container.appendChild(table);
-
-        // } else {
-        //   container.appendChild(table);
-        // }
-        
         let thead = document.createElement("thead");
         table.appendChild(thead);
         let tableHead = posts[0];
